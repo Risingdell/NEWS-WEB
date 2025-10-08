@@ -3,7 +3,7 @@ import NewsFeed from "./NewsFeed";
 
 
 
-function App(){
+export default function App(){
    return(
     <div className="App">
       <NewsFeed />
@@ -12,4 +12,4 @@ function App(){
    )
 
 }
-export default App;
+ 
